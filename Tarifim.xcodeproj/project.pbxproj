@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15A473012CAE7EE7002562A3 /* TarifimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A473002CAE7EE7002562A3 /* TarifimApp.swift */; };
+		15A473032CAE7EE7002562A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A473022CAE7EE7002562A3 /* ContentView.swift */; };
+		15A473052CAE7EE7002562A3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A473042CAE7EE7002562A3 /* Item.swift */; };
+		15A473072CAE7EE7002562A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15A473062CAE7EE7002562A3 /* Assets.xcassets */; };
+		15A4730A2CAE7EE7002562A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15A473092CAE7EE7002562A3 /* Preview Assets.xcassets */; };
+		15A473142CAE7EE8002562A3 /* TarifimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A473132CAE7EE8002562A3 /* TarifimTests.swift */; };
+		15A4731E2CAE7EE8002562A3 /* TarifimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4731D2CAE7EE8002562A3 /* TarifimUITests.swift */; };
+		15A473202CAE7EE8002562A3 /* TarifimUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4731F2CAE7EE8002562A3 /* TarifimUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15A473102CAE7EE8002562A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15A472F52CAE7EE7002562A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15A472FC2CAE7EE7002562A3;
+			remoteInfo = Tarifim;
+		};
+		15A4731A2CAE7EE8002562A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15A472F52CAE7EE7002562A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15A472FC2CAE7EE7002562A3;
+			remoteInfo = Tarifim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15A472FD2CAE7EE7002562A3 /* Tarifim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tarifim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15A473002CAE7EE7002562A3 /* TarifimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarifimApp.swift; sourceTree = "<group>"; };
+		15A473022CAE7EE7002562A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		15A473042CAE7EE7002562A3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		15A473062CAE7EE7002562A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15A473092CAE7EE7002562A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		15A4730F2CAE7EE8002562A3 /* TarifimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TarifimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15A473132CAE7EE8002562A3 /* TarifimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarifimTests.swift; sourceTree = "<group>"; };
+		15A473192CAE7EE8002562A3 /* TarifimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TarifimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15A4731D2CAE7EE8002562A3 /* TarifimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarifimUITests.swift; sourceTree = "<group>"; };
+		15A4731F2CAE7EE8002562A3 /* TarifimUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarifimUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15A472FA2CAE7EE7002562A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A4730C2CAE7EE8002562A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A473162CAE7EE8002562A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15A472F42CAE7EE7002562A3 = {
+			isa = PBXGroup;
+			children = (
+				15A472FF2CAE7EE7002562A3 /* Tarifim */,
+				15A473122CAE7EE8002562A3 /* TarifimTests */,
+				15A4731C2CAE7EE8002562A3 /* TarifimUITests */,
+				15A472FE2CAE7EE7002562A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15A472FE2CAE7EE7002562A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15A472FD2CAE7EE7002562A3 /* Tarifim.app */,
+				15A4730F2CAE7EE8002562A3 /* TarifimTests.xctest */,
+				15A473192CAE7EE8002562A3 /* TarifimUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15A472FF2CAE7EE7002562A3 /* Tarifim */ = {
+			isa = PBXGroup;
+			children = (
+				15A473002CAE7EE7002562A3 /* TarifimApp.swift */,
+				15A473022CAE7EE7002562A3 /* ContentView.swift */,
+				15A473042CAE7EE7002562A3 /* Item.swift */,
+				15A473062CAE7EE7002562A3 /* Assets.xcassets */,
+				15A473082CAE7EE7002562A3 /* Preview Content */,
+			);
+			path = Tarifim;
+			sourceTree = "<group>";
+		};
+		15A473082CAE7EE7002562A3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				15A473092CAE7EE7002562A3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		15A473122CAE7EE8002562A3 /* TarifimTests */ = {
+			isa = PBXGroup;
+			children = (
+				15A473132CAE7EE8002562A3 /* TarifimTests.swift */,
+			);
+			path = TarifimTests;
+			sourceTree = "<group>";
+		};
+		15A4731C2CAE7EE8002562A3 /* TarifimUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15A4731D2CAE7EE8002562A3 /* TarifimUITests.swift */,
+				15A4731F2CAE7EE8002562A3 /* TarifimUITestsLaunchTests.swift */,
+			);
+			path = TarifimUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15A472FC2CAE7EE7002562A3 /* Tarifim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15A473232CAE7EE8002562A3 /* Build configuration list for PBXNativeTarget "Tarifim" */;
+			buildPhases = (
+				15A472F92CAE7EE7002562A3 /* Sources */,
+				15A472FA2CAE7EE7002562A3 /* Frameworks */,
+				15A472FB2CAE7EE7002562A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tarifim;
+			productName = Tarifim;
+			productReference = 15A472FD2CAE7EE7002562A3 /* Tarifim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15A4730E2CAE7EE8002562A3 /* TarifimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15A473262CAE7EE8002562A3 /* Build configuration list for PBXNativeTarget "TarifimTests" */;
+			buildPhases = (
+				15A4730B2CAE7EE8002562A3 /* Sources */,
+				15A4730C2CAE7EE8002562A3 /* Frameworks */,
+				15A4730D2CAE7EE8002562A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15A473112CAE7EE8002562A3 /* PBXTargetDependency */,
+			);
+			name = TarifimTests;
+			productName = TarifimTests;
+			productReference = 15A4730F2CAE7EE8002562A3 /* TarifimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15A473182CAE7EE8002562A3 /* TarifimUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15A473292CAE7EE8002562A3 /* Build configuration list for PBXNativeTarget "TarifimUITests" */;
+			buildPhases = (
+				15A473152CAE7EE8002562A3 /* Sources */,
+				15A473162CAE7EE8002562A3 /* Frameworks */,
+				15A473172CAE7EE8002562A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15A4731B2CAE7EE8002562A3 /* PBXTargetDependency */,
+			);
+			name = TarifimUITests;
+			productName = TarifimUITests;
+			productReference = 15A473192CAE7EE8002562A3 /* TarifimUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15A472F52CAE7EE7002562A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					15A472FC2CAE7EE7002562A3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					15A4730E2CAE7EE8002562A3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 15A472FC2CAE7EE7002562A3;
+					};
+					15A473182CAE7EE8002562A3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 15A472FC2CAE7EE7002562A3;
+					};
+				};
+			};
+			buildConfigurationList = 15A472F82CAE7EE7002562A3 /* Build configuration list for PBXProject "Tarifim" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15A472F42CAE7EE7002562A3;
+			productRefGroup = 15A472FE2CAE7EE7002562A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15A472FC2CAE7EE7002562A3 /* Tarifim */,
+				15A4730E2CAE7EE8002562A3 /* TarifimTests */,
+				15A473182CAE7EE8002562A3 /* TarifimUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15A472FB2CAE7EE7002562A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A4730A2CAE7EE7002562A3 /* Preview Assets.xcassets in Resources */,
+				15A473072CAE7EE7002562A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A4730D2CAE7EE8002562A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A473172CAE7EE8002562A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15A472F92CAE7EE7002562A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A473032CAE7EE7002562A3 /* ContentView.swift in Sources */,
+				15A473052CAE7EE7002562A3 /* Item.swift in Sources */,
+				15A473012CAE7EE7002562A3 /* TarifimApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A4730B2CAE7EE8002562A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A473142CAE7EE8002562A3 /* TarifimTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A473152CAE7EE8002562A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A4731E2CAE7EE8002562A3 /* TarifimUITests.swift in Sources */,
+				15A473202CAE7EE8002562A3 /* TarifimUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15A473112CAE7EE8002562A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15A472FC2CAE7EE7002562A3 /* Tarifim */;
+			targetProxy = 15A473102CAE7EE8002562A3 /* PBXContainerItemProxy */;
+		};
+		15A4731B2CAE7EE8002562A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15A472FC2CAE7EE7002562A3 /* Tarifim */;
+			targetProxy = 15A4731A2CAE7EE8002562A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15A473212CAE7EE8002562A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15A473222CAE7EE8002562A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15A473242CAE7EE8002562A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tarifim/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cigdembircan.Tarifim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15A473252CAE7EE8002562A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tarifim/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cigdembircan.Tarifim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		15A473272CAE7EE8002562A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cigdembircan.TarifimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tarifim.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tarifim";
+			};
+			name = Debug;
+		};
+		15A473282CAE7EE8002562A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cigdembircan.TarifimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tarifim.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tarifim";
+			};
+			name = Release;
+		};
+		15A4732A2CAE7EE8002562A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cigdembircan.TarifimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tarifim;
+			};
+			name = Debug;
+		};
+		15A4732B2CAE7EE8002562A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cigdembircan.TarifimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tarifim;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15A472F82CAE7EE7002562A3 /* Build configuration list for PBXProject "Tarifim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A473212CAE7EE8002562A3 /* Debug */,
+				15A473222CAE7EE8002562A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15A473232CAE7EE8002562A3 /* Build configuration list for PBXNativeTarget "Tarifim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A473242CAE7EE8002562A3 /* Debug */,
+				15A473252CAE7EE8002562A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15A473262CAE7EE8002562A3 /* Build configuration list for PBXNativeTarget "TarifimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A473272CAE7EE8002562A3 /* Debug */,
+				15A473282CAE7EE8002562A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15A473292CAE7EE8002562A3 /* Build configuration list for PBXNativeTarget "TarifimUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A4732A2CAE7EE8002562A3 /* Debug */,
+				15A4732B2CAE7EE8002562A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15A472F52CAE7EE7002562A3 /* Project object */;
+}
