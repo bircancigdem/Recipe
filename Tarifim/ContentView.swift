@@ -1,61 +1,69 @@
-//
-//  ContentView.swift
-//  Tarifim
-//
-//  Created by Çiğdem Bircan on 3.10.2024.
-//
-
 import SwiftUI
-import SwiftData
 
 struct ContentView: View {
-    @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
-
+    @State private var image: UIImage? = nil
+    @State private var isLoading = true
+    
     var body: some View {
-        NavigationSplitView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
-                    }
-                }
-                .onDelete(perform: deleteItems)
+        ZStack {
+            // Arka plan rengi
+            Color.white.edgesIgnoringSafeArea(.all) // Tam ekran arka plan rengi
+            
+            if let image = image {
+                Image(uiImage: image)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit) // Resmi orantılı olarak ayarla
+                    .frame(width: 200, height: 200) // Resmin boyutunu ayarlayın
+                    .cornerRadius(10) // Köşeleri yuvarlat
+                    .padding() // Etrafında biraz boşluk bırak
+            } else if isLoading {
+                Color.clear // Arka planı temiz tutmak için
+            } else {
+                Text("Resim yüklenemedi.")
+                    .foregroundColor(.red)
             }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
-                }
+            
+            // Yükleniyor metni
+            if isLoading {
+                ProgressView("Yükleniyor...")
+                    .padding()
+                    .background(Color.white.opacity(0.8)) // Açık bir arka plan
+                    .cornerRadius(10)
+                    .foregroundColor(.black)
+                    .font(.headline)
             }
-        } detail: {
-            Text("Select an item")
+        }
+        .onAppear {
+            loadImage()
         }
     }
 
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(timestamp: Date())
-            modelContext.insert(newItem)
-        }
-    }
+    private func loadImage() {
+        let imageId = "66fe6e3568ca4b56a7e02ccd" // ID'yi buraya yazın
+        let imageUrl = "http://192.168.1.2:3000/images/\(imageId)" // IP adresinizi buraya yazın
 
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            for index in offsets {
-                modelContext.delete(items[index])
+        guard let url = URL(string: imageUrl) else { return }
+        
+        let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
+            guard let data = data, error == nil else {
+                print("Hata: \(error?.localizedDescription ?? "Unknown error")")
+                DispatchQueue.main.async {
+                    isLoading = false
+                }
+                return
+            }
+            
+            DispatchQueue.main.async {
+                self.image = UIImage(data: data)
+                self.isLoading = false
             }
         }
+        
+        task.resume()
     }
 }
 
 #Preview {
     ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
 }
+
